@@ -1,9 +1,23 @@
 body {
-    background-color:rgb(37, 145, 145);
+    background-color:rgb(250, 145, 145);
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+#header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
-#Sans{
-    position: relative;
-    right: 30px;
+.Section1
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 10px;
+    border: 6px;
+    border-color: rgb(0, 0, 0);
+    border-style: inset;
+    font-size:120%
+    
 }
-
