@@ -1,8 +1,8 @@
 body {
     background-color:rgb(250, 145, 145);
-    border: 5px;
-    border-style: solid;
-    border-radius: 10px;
+    border: 3px;
+    border-style:double;
+    border-radius: 2px;
 }
 #header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -10,14 +10,15 @@ body {
 }
 .Section1
 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.616);
-    border-radius: 10px;
-    border: 6px;
-    border-color: rgb(0, 0, 0);
-    border-style: inset;
+    background-color: rgba(0, 0, 0, 0.144);
+    text-shadow: 2px 3px 0cap #5f0404d3;
+    margin: 10px;
+    border-color: rgba(0, 0, 0, 0.267);
+    border-style:groove;
+    border-width: 10px;
     font-size:120%
     
 }
