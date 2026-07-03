@@ -13,12 +13,29 @@ body {
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.144);
-    text-shadow: 2px 3px 0cap #5f0404d3;
+    background-color: rgba(2, 2, 2, 0.144);
+    text-shadow: 2px 3px 0cap #e20d0dd3;
     margin: 10px;
     border-color: rgba(0, 0, 0, 0.267);
-    border-style:groove;
+    border-style:ridge;
     border-width: 10px;
-    font-size:120%
+    font-size:200%
     
+}
+a 
+{
+    color: rgba(245, 245, 245, 0.89);
+    font-weight:lighter
+}
+.PageSelection
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(2, 2, 2, 0.164);
+    text-shadow: 2px 3px 0cap #e20d0dd3;
+    margin: 20px;
+    word-spacing: 40px;
+    font-size:200%;
+    border-style:dotted;
 }
