@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(250, 145, 145);
+    background-color: rgba(0, 60, 255, 0.496); 
     border: 3px;
     border-style:double;
     border-radius: 2px;
@@ -41,20 +41,20 @@ a
 }
 .BlogStyle1
 {
-    
-    background-color: rgba(2, 2, 2, 0.144); 
-    padding: 10px;
-    text-shadow: 2px 2px 0cap rgba(255, 255, 255, 0.221);
+    color: white;
+    background-color: rgba(0, 60, 255, 0.496); 
+    padding: 1px;
+    text-shadow: 1px 1px 0cap rgba(255, 0, 0, 0.433);
     text-align: center;
     margin: 10%;
     
 }
 .BlogStyle2
 {
+    color: white;
+    background-color: rgba(0, 60, 255, 0.496); 
+    padding: 1px;
+    text-shadow: 1px 1px 0cap rgba(255, 0, 0, 0.433);
+    text-align: center;
     margin: 10%;
-    background-color: rgba(2, 2, 2, 0.144); 
-    padding: 1%;
-    text-shadow: 2px 2px 0cap rgba(255, 255, 255, 0.221);
-    text-align:center;
-    
 }
