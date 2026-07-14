@@ -39,13 +39,22 @@ a
     font-size:200%;
     border-style:dotted;
 }
-.BlogStyle
+.BlogStyle1
 {
-    margin-right: 400px;
-    margin-left: 400px;
+    
     background-color: rgba(2, 2, 2, 0.144); 
-    padding: 1px;
+    padding: 10px;
     text-shadow: 2px 2px 0cap rgba(255, 255, 255, 0.221);
     text-align: center;
-    
+    margin: 100px;
+}
+.BlogStyle2
+{
+    margin: 100px;
+    background-color: rgba(2, 2, 2, 0.144); 
+    padding: 10px;
+    text-shadow: 2px 2px 0cap rgba(255, 255, 255, 0.221);
+    text-align:center;
+    border: 1px;
+    border-style: solid;
 }
