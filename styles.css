@@ -1,25 +1,21 @@
 body {
     background-color: rgba(0, 60, 255, 0.496); 
-    border: 3px;
-    border-style:double;
-    border-radius: 2px;
+    
+    
 }
-#header{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-}
+
 .Section1
 {
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-color: rgba(2, 2, 2, 0.144);
-    text-shadow: 2px 3px 0cap #e20d0dd3;
-    margin: 10px;
+    background-color: rgba(2, 2, 2, 0.282);
+    text-shadow: 1px 2px 0cap #e20d0dd3;
+    margin: 5px;
     border-color: rgba(0, 0, 0, 0.267);
     border-style:ridge;
     border-width: 10px;
-    font-size:200%
+    font-size:large;
     
 }
 a 
@@ -39,22 +35,14 @@ a
     font-size:200%;
     border-style:dotted;
 }
-.BlogStyle1
+
+.Words
 {
+    font-size: large;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    background-color: rgba(0, 60, 255, 0.496); 
-    padding: 1px;
-    text-shadow: 1px 1px 0cap rgba(255, 0, 0, 0.433);
-    text-align: center;
-    margin: 10%;
-    
-}
-.BlogStyle2
-{
-    color: white;
-    background-color: rgba(0, 60, 255, 0.496); 
-    padding: 1px;
-    text-shadow: 1px 1px 0cap rgba(255, 0, 0, 0.433);
-    text-align: center;
-    margin: 10%;
 }
