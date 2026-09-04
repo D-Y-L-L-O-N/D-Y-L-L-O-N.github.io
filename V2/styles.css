@@ -1,23 +1,120 @@
-div {
-    outline: 2px solid grey;
-    font-family:Gravity;
+a 
+{
+    color: rgba(245, 245, 245, 0.89);
+    font-weight:lighter
 }
 body {
-    outline: 3px dotted green;
+    background-color: rgba(32, 58, 204, 0.541);
     
+    overflow: hidden;
+    font-family:Gravity;
+}
+#Title{
+    text-align: center;
+    padding: 1px;
+    text-shadow: 2px 4px 0cap rgba(35, 65, 32, 0.356);
+}
+#Text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 4px 0cap rgba(53, 13, 197, 0.192);
+}
+#Text2{
+    color: rgba(255, 255, 255, 0.856);
+    text-align: center;
+    text-shadow: 2px 4px 0cap rgba(30, 77, 78, 0.637);
+}
+#Date{
+    margin-left: 20px;
+    text-shadow: 1px 5px 0cap rgba(46, 44, 44, 0.158);
+}
+#HighlightText{
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    top: 40px;
+    font-size: 270%;
+    text-shadow: 5px 2px 0cap rgba(63, 61, 61, 0.651);
+}
+.LeftSide{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 850px;
+    border: 10px outset rgba(0, 0, 0, 0.329);
+}
+.Blog{
+    color: rgb(255, 255, 255);
+    position: relative;
+    height: 450px;
+    background-color: brown;
+    margin-top:40px;
+    border: 7px inset rgba(0, 0, 0, 0.753);
+}
+.Art{
+    border: 5px inset rgba(0, 0, 0, 0.397);
+    position: relative;
+    height: 370px;
+    background-color: orange;
+}
+.Middle{
+    position: absolute;
+    width: 600px;
+    top: 50px;
+    left:680px;
+    right: 680px;
+    height: 850px;
+    border: 10px outset rgba(13, 32, 199, 0.281);
+}
+.mTop{
+    position: relative;
+    height: 305px;
+    background-color: seagreen;
+    border: 6px outset black;
+}
+.mMiddle{
+    position: relative;
+    height: 210px;
+    background-color: rgb(189, 21, 72);
+    border: 5px solid rgba(0, 0, 0, 0.329);
+}
+.mBottom{
+    position: relative;
+    height: 305px;
+    background-color: rgb(29, 216, 110);
+    border: 6px outset black;
 }
 
-.PageSelection{
-    display: flex;
-    flex-direction: row; /* This forces the divs to stack downward */
-    width: 200px;  /* Fixed pixel size */
+.RightSide{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    height: 850px;  
+    width: 500px;  
+    
+}
+.Extra1{
+    position: relative;
+    background-color: rgb(10, 219, 209);
     height: 150px;
-    
+    margin-top: 40px;
+    border: 7px outset rgb(0, 0, 0);
 }
-
-
-
-
+.Extra2{
+    position: relative;
+    background-color: rgb(190, 223, 7);
+    height: 150px;
+    margin-top: 20px;
+    border: 7px outset rgb(0, 0, 0);
+}
+.Updates{
+    position: relative;
+    background-color: rgb(230, 230, 233);
+    height: 450px;
+    border: 10px outset rgb(252, 252, 252);
+}
 
 
 
