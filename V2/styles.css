@@ -1,0 +1,29 @@
+div {
+    outline: 2px solid grey;
+    font-family:Gravity;
+}
+body {
+    outline: 3px dotted green;
+    
+}
+
+.PageSelection{
+    display: flex;
+    flex-direction: row; /* This forces the divs to stack downward */
+    width: 200px;  /* Fixed pixel size */
+    height: 150px;
+    
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Gravity;
+    src: url(Gravity-Regular.otf);
+}
