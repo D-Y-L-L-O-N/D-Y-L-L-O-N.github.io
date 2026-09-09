@@ -1,21 +1,27 @@
-
+div{
+outline: 5px inset rgba(126, 169, 200, 0.84);
+    
+}
 body{
     font-family: Gravity;
     overflow: hidden;
 }
 .Main{
-    height: 850px;
+    height: 820px;
     position:relative;
 }
 .leftBody{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position:absolute;
-    top: 120px;
+    top:100px;
     left: 100px;
     width: 500px;
     height: 600px;
-    background-color: rgba(114, 129, 238, 0.208);
+    background-color: rgba(114, 128, 238, 0.674);
+    z-index: -4;   
 }
 .Middle{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position: absolute;
     top:170px;
     left: 600px;
@@ -24,8 +30,10 @@ body{
     background-color: rgba(114, 129, 238, 0.208);
 }
 .rightBody{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position:absolute;
     top:120px;
+    left: 900px;
     right:100px;
     width: 500px;
     height: 600px;
@@ -34,34 +42,66 @@ body{
 
 .Background{
     position: absolute;
-    top:0;
+    top:0PX;
     left: 0px;
     z-index: -99;
     pointer-events: none;   
 }
 
-.inside{
+.insideL{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position: relative;
+    border: 130px inset rgba(243, 8, 8, 0.831);
+    height: 400px;
+    z-index: -10;
+}
+.insideLL{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
+    position: relative;
+    border: 80px inset rgba(192, 179, 179, 0.694);
+    
+    height: 240px;      
+    z-index: -10;
 
 }
+.Itemhold{
+    outline: 10px inset rgba(255, 208, 0, 0.84);
+}
+.insideR{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
+    position: relative;
+    border: 105px inset rgb(243, 8, 8);
+    height: 400px;
+    
+    z-index: -0;
+}
 .takemetoART{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position: absolute;
-    left: 40px;
-    top: 300px;
+    left: 60px;
+    top: 350px;
     width:400px;
     height: 290px;
     background-color: rgba(220, 20, 60, 0.893);
     
 }
 .webUpdates{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position: absolute;
-    top: 10px;
-    left: 40px;
+    top: 40px;
+    left: 60px;
     width: 400px;
     height: 280px;
     background-color: rgba(56, 159, 104, 0.899);
 }
+.TextBox1{
+    position: relative;
+    height: 210px;
+    margin: 15px;
+    
+}
 .who{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position: absolute;
     width: 320px;
     height: 250px;
@@ -69,6 +109,7 @@ body{
     background-color: rgba(114, 128, 238, 0.862);
 }
 .Archive{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position:absolute;
     width: 400px;
     top: 10px;
@@ -77,6 +118,7 @@ body{
     background-color: rgba(127, 97, 220, 0.923);
 }
 .Writings{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position: absolute;
     top:150px;
     left: 40px;
@@ -85,6 +127,7 @@ body{
     background-color: rgba(127, 97, 220, 0.923);
 }
 .BlogWall{
+    outline: 5px inset rgba(126, 169, 200, 0.84);
     position: absolute;
     top: 300px;
     left: 40px; 
