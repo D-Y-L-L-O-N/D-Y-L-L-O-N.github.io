@@ -2,8 +2,6 @@
 body{
     font-family: Gravity;
     overflow: hidden;
-   
-    
 }
 .Main{
     height: 850px;
@@ -38,19 +36,10 @@ body{
     position: absolute;
     top:0;
     left: 0px;
-    z-index: -99; /* Forces the video behind your content */
-    pointer-events: none; /* Allows users to click elements through the video layer */    
-    
+    z-index: -99;
+    pointer-events: none;   
 }
-.BB{
-    position:absolute;
-    top: 0;
-    left:0;
-    z-index: -98; /* Forces the video behind your content */
-    width: 1900px;
-    height: 900px;
-    
-}
+
 .inside{
     position: relative;
 
